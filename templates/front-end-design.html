@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+<title>Upload</title>
+</head>
+<body>
+
+
+<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+        <h1>Extract Links from Page</h1>
+
+    <input style="padding: 11px 15px; font-size: 15.5px; width: 60%;" type="text" name="text" value="" placeholder="enter web address"><br>
+    <button type="submit" value="Get all the links" class="btnx" target="_blank" id="clickform" style="border-radius:6px; border-width:2px;">Get all the links</button>
+</form>
+
+</body>
+
+</html>
