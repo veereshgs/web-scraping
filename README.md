@@ -2,6 +2,7 @@
 scraping all the product links from Amazon seed URL
 
 input :- amazon seed URL 
+
 output :- Amazon Product links 
 
 requirements :
